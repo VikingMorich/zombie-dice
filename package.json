@@ -1,0 +1,14 @@
+{
+  "name": "zombie-dice",
+  "version": "1.0.0",
+  "description": "zombie dice game",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.3.3"
+  }
+}

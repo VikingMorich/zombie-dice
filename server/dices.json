@@ -1,0 +1,17 @@
+{
+    "green": {
+        "brains": 3,
+        "steps": 2,
+        "shots": 1
+    },
+    "yellow": {
+        "brains": 2,
+        "steps": 2,
+        "shots": 2
+    },
+    "red": {
+        "brains": 1,
+        "steps": 2,
+        "shots": 3
+    }
+}
