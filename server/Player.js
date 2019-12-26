@@ -1,13 +1,9 @@
 const uuidv4 = require("uuid/v4")
 
-function Player({
-  name = 'Guest' + rand(9999),
-  id = uuidv4(),
-  score = 0,
-}) {
-  this.name = name;
-  this.id = id;
-  this.score = score;
+function Player(options = {}) {
+  this.name = options.name || `Guest${rand(9999)}`;
+  this.id = options.id || uuidv4();
+  this.score = options.score || 0;
 };
 
 function rand(n) {

@@ -3,7 +3,8 @@ function Dice(type) {
         console.error(`Dice type must be 'GREEN' 'YELLOW' OR 'RED'`)
         return;
     }
-    this.type = type
+    this.type = type;
+    this.state = null;
 }
 
 Dice.prototype.setState = function(state) {
